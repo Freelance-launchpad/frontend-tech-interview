@@ -1,6 +1,6 @@
 # Frontend take home exercise
 
-## Preriquisites
+## Prerequisites
 
 To perform the test you will need a valid [Docker](https://docs.docker.com/get-docker/) installation.
 Then you need to follow those steps in order to have a valid backend for this test:
