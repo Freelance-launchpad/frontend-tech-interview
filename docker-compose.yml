@@ -1,8 +1,0 @@
-version: '3.1'
-
-services:
-  invoice-api:
-    image: ghcr.io/freelance-launchpad/fake-invoice-api:master
-    restart: always
-    ports: 
-      - 8080:8080

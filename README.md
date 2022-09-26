@@ -1,41 +1,35 @@
-# Frontend take home exercise
+# Frontend test interview
 
-## Prerequisites
+## Summary
 
-To perform the test you will need a valid [Docker](https://docs.docker.com/get-docker/) installation.
-Then you need to follow those steps in order to have a valid backend for this test:
- - Clone this repository
- - Go inside the repository
- - Run the command `docker-compose up -d` in a terminal
- - If everything goes well the documentation for the backend should be [here](http://localhost:8080/documentation)
+The goal of this test is to create a Next.js application by displaying data from an external API:
 
+- Display on the homepage a data list of 10-15 items
+- Have the possibility to search in this data list via a search field (a simple/exact search will be enough)
+- On this homepage display randomly 2 items that change every 10 seconds
+- And finally create a detail page on another URL to display the details of this item
 
-## Exercise
+For the API to use we suggest https://punkapi.com/ but as long as the subject is respected you can use any other API
 
-The goal of this exercise is to provide a frontend application interacting with the API you just started.
-The API provides a simple CRUD for Invoices and Companies entities, we expect your app to provide a least :
- - A way to list Invoices
- - A way to create an Invoice
- - A way to delete an Invoice
- - A way to create a Company
- - a way to sort Invoices by Company
+Here is an example of the result https://jump-tech-interview.vercel.app/
 
-Your app is expected to be written in ReactJS and the usage of Typescript would be apreciated.
+You will NOT be tested on the design part, keep it simple/pleasant for you
 
-The code must be as good as you would expect a production code to be.
+### Bonus
 
-There is no restrictions on libraries, feel free to use anything you find useful.
+- Make the application in TypeScript
+- Adding animations
+- Do tests via React Testing Library
+- Have a Lighthouse performance score of 80+ in mobile, and 90+ in desktop
 
-## Submission
+## Requirements
 
-For the submission of this test you can either send us a link to a git repository or an archive of your project.
+- Node.js v16.x (https://nodejs.org/en/)
+- React v18.x (https://reactjs.org/)
+- Next.js v12.x (https://nextjs.org/)
 
-If you think it could be usefull, feel free to include any documentations or a README about your implementation choices.
+For libraries:
 
-There is no time limit for this test but we would like to know how much time you spend on it, so please tell us when sending your test.
-
-## Contact
-
-If you have any issues or questions send us an email at : `tech-interview@join-jump.com`
-
-Good luck !
+- React Hooks library for data fetching (SWR, React Query, etc...)
+- CSS-in-JS library (Styled Components, Emotion, Stitches, etc...)
+- Spring physics animation library (React Spring, Framer Motion, etc...)
