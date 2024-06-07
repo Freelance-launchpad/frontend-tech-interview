@@ -13,8 +13,6 @@ Your deliverable is expected to:
 
 For the API to use we suggest https://punkapi.com/ but as long as the subject is respected you can use any other API
 
-Here is an example of the result https://jump-tech-interview.vercel.app/
-
 You will NOT be tested on the design part, so keep it simple and pleasant for you.
 
 ### Bonus
