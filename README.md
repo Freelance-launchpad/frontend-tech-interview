@@ -2,41 +2,37 @@
 
 ## Summary
 
-The goal of this test is to create a Next.js application by displaying data from an external API.
+The goal of this test is to create a react application (choose the framework you want) by displaying data from an external API and creating a simple contact form.
 
-Your deliverable is expected to:
+Your deliverable is expected to have two pages.
 
+Page One:
 - Display on the homepage a data list of 10-15 items
-- Have the possibility to search in this data list via a search field (a simple/exact search will be enough)
-- On this homepage display 2 items (random) that change every 10 seconds
-- Create a detail page on another URL to display the details of this item
+- Have the possibility to search in this data via a search field (a simple/exact search will be enough) and a select field
 
-For the API to use we suggest https://punkapi.com/ but as long as the subject is respected you can use any other API
+Page Two:
+- Create form with title, email and descrition fields
+- Add validation on submit
+- Console the json result on submit
 
-You will NOT be tested on the design part, so keep it simple and pleasant for you.
+For the API to use we suggest https://pokeapi.co/ but as long as the subject is respected you can use any other API.
 
 ### Bonus
 
-- Make the application in TypeScript
 - Add animations
-- Do tests via React Testing Library
-- Have a Lighthouse performance score of 80+ in mobile, and 90+ in desktop
+- Responsive
+- Create detail page of item
 
-## Requirements
+## Libraries and tools you must use:
 
-- Node.js v16.x (https://nodejs.org/en/)
-- React v18.x (https://reactjs.org/)
-- Next.js v12.x (https://nextjs.org/)
-
-For libraries:
-
-- React Hooks library for data fetching (React Query, SWR, etc...)
-- CSS-in-JS library (Stitches, Styled Components, Emotion, etc...)
-- Spring physics animation library (Framer Motion, React Spring, etc...)
+- Tanstack Query
+- TailwindCss
+- TypeScript
+- React Hook Form with Zod
 
 ## Submission
 
-For the submission of this test you can either send us a link to a git repository or an archive of your project.
+For the submission of this test you can either send us a link to a public github repository.
 
 If you think it could be usefull, feel free to include any documentations or a README about your implementation choices.
 
