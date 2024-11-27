@@ -19,6 +19,7 @@ For the API to use we suggest https://pokeapi.co/ but as long as the subject is 
 
 ### Bonus
 
+- Use SSR
 - Add animations
 - Responsive
 - Create detail page of item
