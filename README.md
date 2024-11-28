@@ -2,27 +2,28 @@
 
 ## Summary
 
-The goal of this test is to create a react application (choose the framework you want) by displaying data from an external API and creating a simple contact form.
+The goal of this test is to create a react application (choose the framework you want, really) by displaying data from an external API.
 
 Your deliverable is expected to have two pages.
 
 Page One:
-- Display on the homepage a data list of 10-15 items
-- Have the possibility to search in this data via a search field (a simple/exact search will be enough) and a select field
+- Have a search field to search the api
+- By default when there is no search display a message to invite the user to search
+- Display the first 10 results of the search
 
 Page Two:
 - Create form with title, email and descrition fields
 - Add validation on submit
 - Console the json result on submit
 
-For the API to use we suggest https://pokeapi.co/ but as long as the subject is respected you can use any other API.
+For the API to use we suggest https://openlibrary.org/dev/docs/api/search but as long as the subject is respected you can use any other API.
 
 ### Bonus
 
 - Use SSR
 - Add animations
 - Responsive
-- Create detail page of item
+- Create a detail page of an item (with openlibrary, you can access the detail of an item with the `key` value + the `.json` extension)
 
 ## Libraries and tools you must use:
 
