@@ -2,7 +2,7 @@
 
 ## Summary
 
-The goal of this test is to create a react application (choose the framework you want, really) by displaying data from an external API.
+The goal of this test is to create a react application (choose the framework you want, really) by displaying data from an external API and creating a simple contact form.
 
 Your deliverable is expected to have two pages.
 
