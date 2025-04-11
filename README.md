@@ -1,47 +1,87 @@
-# Frontend test interview
+# Welcome to React Router!
 
-## Summary
+A modern, production-ready template for building full-stack React applications using React Router.
 
-The goal of this test is to create a production ready react application (choose the framework you want, really) by displaying data from an external API and creating a simple contact form.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-Your deliverable is expected to have two pages.
+## Features
 
-Page One:
-- Have a search field to search the api
-- By default when there is no search display a message to invite the user to search
-- Display the first 10 results of the search
+- 🚀 Server-side rendering
+- ⚡️ Hot Module Replacement (HMR)
+- 📦 Asset bundling and optimization
+- 🔄 Data loading and mutations
+- 🔒 TypeScript by default
+- 🎉 TailwindCSS for styling
+- 📖 [React Router docs](https://reactrouter.com/)
 
-Page Two:
-- Create form with title, email and descrition fields
-- Add validation on submit
-- Console the json result on submit
+## Getting Started
 
-For the API to use we suggest https://openlibrary.org/dev/docs/api/search but as long as the subject is respected you can use any other API.
+### Installation
 
-### Bonus
+Install the dependencies:
 
-- Use SSR
-- Add animations
-- Responsive
-- Create a detail page of an item (with openlibrary, you can access the detail of an item with the `key` value + the `.json` extension)
+```bash
+npm install
+```
 
-## Libraries and tools you must use:
+### Development
 
-- Tanstack Query
-- TailwindCss
-- TypeScript
-- React Hook Form with Zod
+Start the development server with HMR:
 
-## Submission
+```bash
+npm run dev
+```
 
-For the submission of this test you can either send us a link to a public github repository.
+Your application will be available at `http://localhost:5173`.
 
-If you think it could be usefull, feel free to include any documentations or a README about your implementation choices.
+## Building for Production
 
-There is no time limit for this test but we would like to know how much time you spend on it, so please tell us when sending your test.
+Create a production build:
 
-## Contact
+```bash
+npm run build
+```
 
-If you have any issues or questions send us an email at: tech-interview@join-jump.com
+## Deployment
 
-Good luck !
+### Docker Deployment
+
+To build and run using Docker:
+
+```bash
+docker build -t my-app .
+
+# Run the container
+docker run -p 3000:3000 my-app
+```
+
+The containerized application can be deployed to any platform that supports Docker, including:
+
+- AWS ECS
+- Google Cloud Run
+- Azure Container Apps
+- Digital Ocean App Platform
+- Fly.io
+- Railway
+
+### DIY Deployment
+
+If you're familiar with deploying Node applications, the built-in app server is production-ready.
+
+Make sure to deploy the output of `npm run build`
+
+```
+├── package.json
+├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
+├── build/
+│   ├── client/    # Static assets
+│   └── server/    # Server-side code
+```
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+---
+
+Built with ❤️ using React Router.
